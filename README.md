@@ -18,11 +18,11 @@ Four datasets are used in this project:
 Three different models are used to classify the emotions:
 
 1. A Convolutional Neural Network (CNN) trained on the Mel Spectrograms of the audio files. Mel Spectrograms look like this:
-   
 ![Mel spectrograms](images/mel-spectrograms.png)
 
-3. A CNN trained on the Mel Frequency Cepstral Coefficients (MFCCs) of the audio files.
-4. A Convolutional Recurrent Neural Network (CRNN) trained on the Mel Frequency Cepstral Coefficients of the audio files.
+3. A CNN trained on the Mel Frequency Cepstral Coefficients (MFCCs) of the audio files. MFCCs look like this:
+![MFCCs](images/MFCCs.png)
+5. A Convolutional Recurrent Neural Network (CRNN) trained on the Mel Frequency Cepstral Coefficients of the audio files.
 
 ## Contents
 
@@ -94,7 +94,8 @@ Here are the detailed scores for each model:
      sadness       0.68      0.75      0.71       396
     surprise       0.91      0.91      0.91       139
 ```
-
+These are the Accuracy and Loss values for each model per epoch:
+![Evaluation](images/Evaluation.png)
 
 Future work could involve experimenting with more complex model architectures, collecting more training data, and refining the preprocessing techniques to improve the models' ability to distinguish between similar emotions.
 
