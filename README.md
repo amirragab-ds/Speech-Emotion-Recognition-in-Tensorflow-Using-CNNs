@@ -18,7 +18,9 @@ Four datasets are used in this project:
 Three different models are used to classify the emotions:
 
 1. A Convolutional Neural Network (CNN) trained on the Mel Spectrograms of the audio files. Mel Spectrograms look like this:
-![Mel spectrograms](images/mel spectrograms.png)
+   
+![Mel spectrograms](images/mel-spectrograms.png)
+
 3. A CNN trained on the Mel Frequency Cepstral Coefficients (MFCCs) of the audio files.
 4. A Convolutional Recurrent Neural Network (CRNN) trained on the Mel Frequency Cepstral Coefficients of the audio files.
 
