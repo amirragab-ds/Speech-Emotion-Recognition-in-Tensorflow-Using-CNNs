@@ -97,10 +97,6 @@ Here are the detailed scores for each model:
 These are the Accuracy and Loss values for each model per epoch:
 ![Evaluation](images/Evaluation.png)
 
-Future work could involve experimenting with more complex model architectures, collecting more training data, and refining the preprocessing techniques to improve the models' ability to distinguish between similar emotions.
-
-Please note that the actual performance of the models may vary depending on the specific dataset used, the preprocessing techniques applied, and the parameters chosen for the models.
-
 ## Usage
 
 To run the code in this repository, you will need to have Python installed, along with the libraries listed in `requirements.txt`. You can install these with pip using the command `pip install -r requirements.txt`.
