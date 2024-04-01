@@ -2,7 +2,15 @@
 
 ## Overview
 
-Recognizing emotions from voice alone is a challenging task. Emotions are subjective and not universal, and we often rely on facial expressions and body language to recognize emotions, so relying on voice alone is difficult. Despite these challenges, this project aims to build a model that can accurately classify the emotional content of vocal expressions.
+Speech Emotion Recognition (SER) involves analyzing various acoustic features of speech signals to identify emotional states. These features include pitch, volume, tempo, and pauses in speech. Machine learning algorithms are trained on labeled datasets containing audio recordings with corresponding emotion labels (e.g., happy, sad, angry). The models then learn patterns that correlate these acoustic features with specific emotions.
+
+There are two primary approaches to Speech Emotion Recognition:
+
+1. Rule-based systems: These systems rely on predefined rules and heuristics to map acoustic features to emotional states. For example, a high pitch might be associated with happiness while a low pitch could indicate sadness. However, these systems may struggle in cases where emotions are not clearly expressed through typical vocal patterns or when multiple emotions are present simultaneously.
+
+2. Data-driven models: These models use machine learning algorithms to learn relationships between acoustic features and emotional states from labeled datasets. Data-driven approaches tend to be more accurate than rule-based systems but require large amounts of high-quality training data. Deep neural networks, such as Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN), are commonly used in this context.
+
+We will be using the second approach in this project due to its flexibility and superiour performance.
 
 ## Datasets
 
