@@ -1,5 +1,6 @@
 # Speech Emotion Recognition (SER) using CNNs and CRNNs Based on Mel Spectrograms and Mel Frequency Cepstral Coefficients (MFCCs).
 
+This is the source code from this [Article](https://datascrutineer.com/speech-emotion-recognition-cnns-tensorflow/), which goes more into detail on Speech Emotion Recognition.
 ## Overview
 
 Speech Emotion Recognition (SER) involves analyzing various acoustic features of speech signals to identify emotional states. These features include pitch, volume, tempo, and pauses in speech. Machine learning algorithms are trained on labeled datasets containing audio recordings with corresponding emotion labels (e.g., happy, sad, angry). The models then learn patterns that correlate these acoustic features with specific emotions.
